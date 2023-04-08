@@ -170,13 +170,11 @@ body {
 }
 
 .header-nav-list {
-    padding: 24px 0;
     gap: 40px;
 }
 
-.header-nav-item {}
-
 .header-nav-link {
+    padding: 24px 0;
     font-weight: 500;
     color: var(--color-navy-blue);
 }
