@@ -85,6 +85,7 @@ body {
     text-decoration: none;
     text-transform: none;
     color: var(--color-white);
+    max-width: 496px;
     margin-bottom: 48px;
 }
 
@@ -122,6 +123,7 @@ body {
     letter-spacing: 0.04em;
     background-color: var(--color-cloud);
     color: var(--color-iris);
+    display: block;
     padding: 12px 24px;
     border: 1px solid var(--color-cornflower);
     border-radius: 4px;
@@ -132,6 +134,7 @@ body {
     cursor: pointer;
     background-color: var(--color-ocean);
     color: var(--color-white);
+    border: 1px solid transparent;
 }
 
 /* PAGES */
@@ -141,12 +144,13 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 24px;
-    padding-bottom: 23px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -157,15 +161,15 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-iris);
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-std-header {
     color: var(--color-navy-blue);
-    margin-right: 76px;
 }
 
-.header-nav-item:not(:last-child) {
-    margin-right: 40px;
+.header-nav-list {
+    gap: 40px;
 }
 
 .header-nav-link {
@@ -186,8 +190,8 @@ body {
     font-style: normal;
 }
 
-.contact-item:not(:first-child) {
-    margin-left: 40px;
+.contact-list {
+    gap: 40px;
 }
 
 .contact-link:hover,
@@ -205,11 +209,13 @@ body {
 }
 
 .hero-btn {
+    min-width: 169px;
     padding: 16px 32px;
     background: var(--color-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
     color: var(--color-white);
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -272,9 +278,15 @@ body {
 
 /* PORTFOLIO ↓↓↓ */
 
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .filter-list {
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
 }
 
 .projects-list {
@@ -286,8 +298,7 @@ body {
 }
 
 .projects-card-desc {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
     border: 1px solid var(--color-cornflower);
     border-top: none;
 }
@@ -296,11 +307,13 @@ body {
 .footer {
     color: var(--color-cloud);
     background-color: var(--color-navy-blue);
-}
-
-.footer-container {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-std-footer {
@@ -308,6 +321,5 @@ body {
 }
 
 .footer-text {
-    padding-top: 16px;
     width: 264px;
 }
