@@ -154,11 +154,6 @@ body {
     align-items: center;
 }
 
-.header-nav .logo {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .logo {
     font-family: var(--font-logo);
     font-weight: 800;
@@ -176,6 +171,11 @@ body {
 
 .header-nav-list {
     gap: 40px;
+}
+
+.header-nav-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav-link {
