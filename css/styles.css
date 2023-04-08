@@ -232,6 +232,7 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--color-ocean);
+    border: none;
 }
 
 /* hero ↑↑↑ */
