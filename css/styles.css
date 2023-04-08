@@ -170,12 +170,11 @@ body {
 }
 
 .header-nav-list {
+    padding: 24px 0;
     gap: 40px;
 }
 
-.header-nav-item {
-    padding: 24px 0;
-}
+.header-nav-item {}
 
 .header-nav-link {
     font-weight: 500;
