@@ -87,6 +87,7 @@ body {
     color: var(--color-white);
     max-width: 496px;
     margin-bottom: 48px;
+    text-align: center;
 }
 
 .title-primary {
@@ -204,8 +205,13 @@ body {
 .section-hero {
     background-color: var(--color-navy-blue);
     color: var(--color-white);
-    text-align: center;
     padding: 188px 0;
+}
+
+.section-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-btn {
